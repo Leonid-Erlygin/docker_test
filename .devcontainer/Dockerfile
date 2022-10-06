@@ -1,6 +1,6 @@
 # Note: You can use any Debian/Ubuntu based image you want. 
 #FROM mcr.microsoft.com/vscode/devcontainers/base:0-bullseye
-FROM nvcr.io/nvidia/pytorch:22.07-py3
+FROM nvcr.io/nvidia/pytorch:21.06-py3
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"
